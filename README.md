@@ -1,54 +1,54 @@
-# File Transfer with Sockets
+# File Transfer System
 
-This project demonstrates how to transfer files between a client and server using sockets. It includes both a sender script and a receiver script for simple file transmission.
+This project demonstrates a simple file transfer system using sockets in Python. It consists of a sender and a receiver that transfer files over a network connection.
 
 ## Features
 
-- **File Transfer:** Allows a file to be sent from a client to a server over a network socket.
-- **Basic Protocol:** Sends file metadata (name and size) followed by the file data.
+- **Send Files**: Send a file from the sender to the receiver.
+- **Receive Files**: Receive and save the file on the receiver's end.
 
-## Components
+## Files
 
-### `sender.py`
+1. **sender.py**: The sender script that encrypts and sends a file.
+2. **receiver.py**: The receiver script that receives and saves the file.
 
-This script handles the following tasks:
-1. **Send File Data:** Opens the file to be sent, reads its data, and sends it to the receiver.
-2. **Send Metadata:** Sends the file name and size before the actual file data.
+## Installation
 
-#### Example Usage
-```bash
-python sender.py
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
 
-### `receiver.py`
+2. **Install Dependencies**:
+   Ensure you have Python installed. No additional packages are needed for this basic implementation.
 
-This script performs the following:
-1. **Receive File Data:** Listens for incoming connections from the sender and receives the file data.
-2. **Save File:** Writes the received file data to a local file.
+## Usage
 
-#### Example Usage
-```bash
-python receiver.py
-```
+### Sender
 
-## Prerequisites
+1. Edit `sender.py` to specify the file you want to send and the destination IP and port.
+2. Run the sender script:
+   ```bash
+   python sender.py
+   ```
 
-- Python 3.x
+### Receiver
 
-## Setup
+1. Edit `receiver.py` to specify the save path for the received file and the IP and port to listen on.
+2. Run the receiver script:
+   ```bash
+   python receiver.py
+   ```
 
-1. **Prepare the Files:**
-   - Place the file to be transferred (e.g., `resume.docx`) in the same directory as `sender.py`.
+## Example
 
-2. **Run the Scripts:**
-   - Start the receiver script to listen for incoming connections.
-   - Run the sender script to send the file.
+1. Start the receiver script.
+2. Start the sender script to send a file.
 
-## Troubleshooting
+## Contact Me
 
-- **File Not Found Errors:** Ensure that the file to be sent exists and is located in the correct directory.
-- **Connection Errors:** Verify that the server is running and listening on the correct port before running the sender script.
+For questions or feedback, you can reach me at:
 
-
-## Contact
-For any questions or further information, please contact me at abubaabubakarjunaid611@gmail.com. Connect with me on LinkedIn.
+- **Email**: [abubakarjunaid611@gmail.com ](mailto:abubakarjunaid611@gmail.com 
+- **LinkedIn**: [LinkedIn]((https://www.linkedin.com/in/abubakar-junaid-2aa2b031b/))
