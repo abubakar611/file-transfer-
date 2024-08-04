@@ -45,10 +45,3 @@ This project demonstrates a simple file transfer system using sockets in Python.
 
 1. Start the receiver script.
 2. Start the sender script to send a file.
-
-## Contact Me
-
-For questions or feedback, you can reach me at:
-
-- **Email**: [abubakarjunaid611@gmail.com ](mailto:abubakarjunaid611@gmail.com 
-- **LinkedIn**: [LinkedIn]((https://www.linkedin.com/in/abubakar-junaid-2aa2b031b/))
